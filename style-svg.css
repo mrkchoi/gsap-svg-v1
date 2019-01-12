@@ -1,13 +1,3 @@
-body {
-  background-color: antiquewhite;
-}
-
-.main--wrapper {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
-
 /* SVG */
 #svg--main {
   width: 30rem;
@@ -16,4 +6,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#svg__box1 {
+  fill: pink !important;
 }
